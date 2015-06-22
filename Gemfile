@@ -9,7 +9,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.3'
   gem 'shoulda-matchers', '~> 2.8'
   gem 'rolify', '~> 4'
-  gem 'seedbank', '~> 0.4.0.pre'
+  gem 'seedbank', '~> 0.3'
   gem 'factory_girl_rails', '~> 4.5'
   gem 'faker', '~> 1.4'
   gem 'haml', '~> 4'
