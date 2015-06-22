@@ -16,3 +16,5 @@ group :development, :test do
   gem 'database_cleaner'
 end
 
+gem 'coveralls', require: false
+

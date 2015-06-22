@@ -1,3 +1,27 @@
 = FriendlyId::MethodScopes
 
+{rdoc-image:https://badge.fury.io/gh/gemvein%2Ffriendly_id-method_scopes.svg}[http://badge.fury.io/gh/gemvein%2Ffriendly_id-method_scopes]
+{rdoc-image:https://travis-ci.org/gemvein/friendly_id-method_scopes.svg}[https://travis-ci.org/gemvein/friendly_id-method_scopes]
+{rdoc-image:https://coveralls.io/repos/gemvein/friendly_id-method_scopes/badge.png}[https://coveralls.io/r/gemvein/friendly_id-method_scopes]
+
+== Installation
+
+In your Gemfile:
+
+    gem 'friendly_id'
+    gem 'friendly_id-method_scopes'
+
+== Usage
+
+In your model:
+
+    extend FriendlyId
+    friendly_id :name, use: [:slugged, :method_scopes], scope_methods: :custom_method_name
+
+    def custom_method_name
+        # Code returning an array of eligible ids here
+    end
+
+== License
+
 This project rocks and uses MIT-LICENSE.
