@@ -1,8 +1,9 @@
 = FriendlyId::MethodScopes
 
-{rdoc-image:https://badge.fury.io/gh/gemvein%2Ffriendly_id-method_scopes.svg}[http://badge.fury.io/gh/gemvein%2Ffriendly_id-method_scopes]
-{rdoc-image:https://travis-ci.org/gemvein/friendly_id-method_scopes.svg}[https://travis-ci.org/gemvein/friendly_id-method_scopes]
-{rdoc-image:https://coveralls.io/repos/gemvein/friendly_id-method_scopes/badge.png}[https://coveralls.io/r/gemvein/friendly_id-method_scopes]
+{<img src="https://badge.fury.io/rb/friendly_id-method_scopes.svg" alt="Gem Version" />}[http://badge.fury.io/rb/friendly_id-method_scopes]
+{<img src="https://travis-ci.org/gemvein/friendly_id-method_scopes.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/gemvein/friendly_id-method_scopes]
+{<img src="https://coveralls.io/repos/gemvein/friendly_id-method_scopes/badge.svg?branch=master" alt="Coverage Status" />}[https://coveralls.io/r/gemvein/friendly_id-method_scopes?branch=master]
+
 
 FriendlyId Extension to allow method scopes, in addition to column and relationship scopes
 
