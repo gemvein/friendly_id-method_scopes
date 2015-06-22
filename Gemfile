@@ -1,15 +1,18 @@
 source 'https://rubygems.org'
 
-# Declare your gem's dependencies in friendly_id-method_scopes.gemspec.
-# Bundler will treat runtime dependencies like base dependencies, and
-# development dependencies will be added by default to the :development group.
-gemspec
+gem 'rails', '~> 4'
+gem 'friendly_id', '~> 5'
+gem 'jeweler'
 
-# Declare any dependencies that are still in development here instead of in
-# your gemspec. These might include edge Rails or gems from your path or
-# Git. Remember to move these dependencies to your gemspec before releasing
-# your gem to rubygems.org.
-
-# To use a debugger
-# gem 'byebug', group: [:development, :test]
+group :development, :test do
+  gem 'sqlite3'
+  gem 'rspec-rails'
+  gem 'shoulda-matchers'
+  gem 'rolify'
+  gem 'seedbank', '~> 0.4.0.pre'
+  gem 'factory_girl_rails'
+  gem 'faker'
+  gem 'haml'
+  gem 'database_cleaner'
+end
 

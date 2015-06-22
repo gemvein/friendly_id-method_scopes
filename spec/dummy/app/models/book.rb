@@ -4,7 +4,7 @@ class Book < ActiveRecord::Base
 
   # FriendlyId Gem
   extend FriendlyId
-  friendly_id :title, use: [:slugged, :method_scopes], scope_method: :also_written_by
+  friendly_id :title, use: [:slugged, :method_scopes], scope_methods: :also_written_by
 
   def authors
     Author.with_role(:author, self)

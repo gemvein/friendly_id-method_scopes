@@ -7,6 +7,6 @@ class Author < ActiveRecord::Base
   friendly_id :full_name, use: :slugged
 
   def books
-    Books.with_role(:author, self)
+    Book.with_role(:author, self)
   end
 end
