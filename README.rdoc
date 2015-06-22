@@ -4,6 +4,8 @@
 {rdoc-image:https://travis-ci.org/gemvein/friendly_id-method_scopes.svg}[https://travis-ci.org/gemvein/friendly_id-method_scopes]
 {rdoc-image:https://coveralls.io/repos/gemvein/friendly_id-method_scopes/badge.png}[https://coveralls.io/r/gemvein/friendly_id-method_scopes]
 
+FriendlyId Extension to allow method scopes, in addition to column and relationship scopes
+
 == Installation
 
 In your Gemfile:

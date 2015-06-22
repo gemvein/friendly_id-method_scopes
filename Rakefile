@@ -21,7 +21,7 @@ begin
     s.summary = "FriendlyId Extension to allow method scopes."
     s.email = "karen.e.lundgren@gmail.com"
     s.homepage = "http://www.gemvein.com/museum/cases/friendly_id-method_scopes"
-    s.description = "FriendlyId Extension to allow method scopes."
+    s.description = "FriendlyId Extension to allow method scopes, in addition to column and relationship scopes."
     s.authors = ["Karen Lundgren"]
   end
 rescue LoadError
