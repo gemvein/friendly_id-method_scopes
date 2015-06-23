@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Karen Lundgren"]
-  s.date = "2015-06-22"
+  s.date = "2015-06-23"
   s.description = "FriendlyId Extension to allow method scopes, in addition to column and relationship scopes."
   s.email = "karen.e.lundgren@gmail.com"
   s.extra_rdoc_files = [
@@ -100,6 +100,7 @@ Gem::Specification.new do |s|
     "spec/support/books_with_authors.rb"
   ]
   s.homepage = "http://www.gemvein.com/museum/cases/friendly_id-method_scopes"
+  s.licenses = ["MIT"]
   s.rubygems_version = "2.4.5"
   s.summary = "FriendlyId Extension to allow method scopes."
 

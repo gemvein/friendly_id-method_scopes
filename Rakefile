@@ -21,8 +21,10 @@ begin
     s.summary = "FriendlyId Extension to allow method scopes."
     s.email = "karen.e.lundgren@gmail.com"
     s.homepage = "http://www.gemvein.com/museum/cases/friendly_id-method_scopes"
+    s.licenses = ["MIT"]
     s.description = "FriendlyId Extension to allow method scopes, in addition to column and relationship scopes."
     s.authors = ["Karen Lundgren"]
+    s.version = File.read('VERSION').chomp
   end
 rescue LoadError
   puts "Jeweler, or one of its dependencies, is not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
