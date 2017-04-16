@@ -1,4 +1,3 @@
-# encoding: UTF-8
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -23,9 +22,8 @@ ActiveRecord::Schema.define(version: 20150622182214) do
   create_table "authors_roles", id: false, force: :cascade do |t|
     t.integer "author_id"
     t.integer "role_id"
+    t.index ["author_id", "role_id"], name: "index_authors_roles_on_author_id_and_role_id"
   end
-
-  add_index "authors_roles", ["author_id", "role_id"], name: "index_authors_roles_on_author_id_and_role_id"
 
   create_table "books", force: :cascade do |t|
     t.string   "title"
@@ -36,13 +34,12 @@ ActiveRecord::Schema.define(version: 20150622182214) do
 
   create_table "roles", force: :cascade do |t|
     t.string   "name"
-    t.integer  "resource_id"
     t.string   "resource_type"
+    t.integer  "resource_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.index ["name", "resource_type", "resource_id"], name: "index_roles_on_name_and_resource_type_and_resource_id"
+    t.index ["name"], name: "index_roles_on_name"
   end
-
-  add_index "roles", ["name", "resource_type", "resource_id"], name: "index_roles_on_name_and_resource_type_and_resource_id"
-  add_index "roles", ["name"], name: "index_roles_on_name"
 
 end

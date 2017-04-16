@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/work/Gems/friendly_id-method_scopes/spec/controllers/authors_controller_spec.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/controllers/authors_controller_spec.rb": [
         1,
         null,
         1,
@@ -23,7 +23,7 @@
         null,
         null
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/rails_helper.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -63,21 +63,21 @@
         1,
         null,
         1,
-        22,
-        22,
+        11,
+        11,
         null,
         null,
         1,
         null
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/config/environment.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/config/application.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/config/application.rb": [
         1,
         null,
         null,
@@ -88,49 +88,47 @@
         1,
         null,
         null,
-        1,
-        1,
-        1,
         null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
         null,
         1,
         1,
         1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         1,
         1,
         1,
         1,
         1,
         1,
-        null,
+        1,
+        1,
+        1,
         null,
         null,
         null
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/config/boot.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/config/boot.rb": [
         null,
         1,
         null,
         1,
         1
       ],
-      "/home/work/Gems/friendly_id-method_scopes/lib/friendly_id/method_scopes.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/lib/friendly_id/method_scopes.rb": [
         1,
         1,
         null,
@@ -201,7 +199,7 @@
         null,
         null
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/config/environments/test.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/config/environments/test.rb": [
         1,
         null,
         null,
@@ -221,19 +219,19 @@
         1,
         null,
         null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
         1,
         1,
         null,
         null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
         null,
         null,
         1,
@@ -245,7 +243,15 @@
         null,
         null
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/config/initializers/assets.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/config/initializers/application_controller_renderer.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -258,7 +264,7 @@
         null,
         null
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/config/initializers/backtrace_silencers.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -267,18 +273,20 @@
         null,
         null
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/config/initializers/cookies_serializer.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/config/initializers/cookies_serializer.rb": [
+        null,
+        null,
         null,
         null,
         1
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/config/initializers/filter_parameter_logging.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/config/initializers/inflections.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -296,39 +304,64 @@
         null,
         null
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/config/initializers/mime_types.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/config/initializers/rolify.rb": [
-        1,
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/config/initializers/new_framework_defaults.rb": [
         null,
         null,
         null,
         null,
         null,
-        null
-      ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/app/models/role.rb": [
-        1,
-        1,
-        1,
+        null,
+        null,
+        null,
         null,
         1,
         null,
         null,
+        1,
+        null,
+        null,
         null,
         1,
-        null
-      ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/config/initializers/session_store.rb": [
+        null,
+        null,
+        1,
         null,
         null,
         1
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/config/initializers/wrap_parameters.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/config/initializers/rolify.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/app/models/role.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/config/initializers/session_store.rb": [
+        null,
+        null,
+        1
+      ],
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -344,7 +377,7 @@
         null,
         null
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/spec/factories/author.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/spec/factories/author.rb": [
         1,
         1,
         1,
@@ -352,7 +385,7 @@
         null,
         null
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/spec/factories/book.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/spec/factories/book.rb": [
         1,
         1,
         1,
@@ -369,7 +402,7 @@
         null,
         null
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/config/routes.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/config/routes.rb": [
         1,
         1,
         1,
@@ -377,96 +410,49 @@
         1,
         null
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/spec/support/books_with_authors.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/spec/support/authors.rb": [
         1,
-        8,
         10,
-        14,
-        10,
-        8,
+        6,
         null
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/spec/support/authors.rb": [
-        1,
-        20,
-        12,
-        null
-      ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/app/controllers/authors_controller.rb": [
-        1,
-        1,
-        null,
-        null,
-        1,
-        2,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        1,
-        2,
-        null,
-        null
-      ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/app/controllers/application_controller.rb": [
-        1,
-        null,
-        null,
-        1,
-        null
-      ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/controllers/books_controller_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/app/controllers/books_controller.rb": [
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        2,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        1,
-        2,
-        null,
-        null,
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/spec/support/books_with_authors.rb": [
         1,
         4,
+        5,
+        7,
+        5,
+        4,
+        null
+      ],
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/app/controllers/authors_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
         null,
         null
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/spec/controllers/authors_controller_spec.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/controllers/books_controller_spec.rb": [
         1,
         null,
         1,
@@ -482,35 +468,40 @@
         1,
         1,
         1,
+        null,
+        null,
         1,
         null,
         null,
         null,
         null
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/spec/controllers/books_controller_spec.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/app/controllers/books_controller.rb": [
+        1,
+        1,
         1,
         null,
-        1,
-        1,
         null,
-        1,
-        1,
         1,
         1,
         null,
         null,
         null,
         1,
+        null,
+        null,
         1,
+        null,
         1,
         1,
         null,
         null,
+        1,
+        2,
         null,
         null
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/spec/models/author_spec.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/models/author_spec.rb": [
         1,
         null,
         1,
@@ -523,7 +514,7 @@
         null,
         null
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/app/models/author.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/app/models/author.rb": [
         1,
         null,
         1,
@@ -533,28 +524,28 @@
         1,
         null,
         1,
-        14,
-        null,
-        null
-      ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/spec/models/book_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null,
-        1,
-        2,
-        2,
-        null,
-        1,
-        2,
-        2,
-        null,
+        7,
         null,
         null
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/app/models/book.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/models/book_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        2,
+        2,
+        null,
+        1,
+        2,
+        2,
+        null,
+        null,
+        null
+      ],
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/dummy/app/models/book.rb": [
         1,
         null,
         1,
@@ -572,7 +563,7 @@
         null,
         null
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/spec/routing/authors_routing_spec.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/routing/authors_routing_spec.rb": [
         1,
         null,
         1,
@@ -589,71 +580,7 @@
         null,
         null
       ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/dummy/spec/routing/books_routing_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/models/author_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null,
-        1,
-        2,
-        2,
-        null,
-        null,
-        null
-      ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/models/book_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null,
-        1,
-        2,
-        2,
-        null,
-        1,
-        2,
-        2,
-        null,
-        null,
-        null
-      ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/routing/authors_routing_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/home/work/Gems/friendly_id-method_scopes/spec/routing/books_routing_spec.rb": [
+      "/Users/karen/Gems/friendly_id-method_scopes/spec/routing/books_routing_spec.rb": [
         1,
         null,
         1,
@@ -671,6 +598,6 @@
         null
       ]
     },
-    "timestamp": 1435007115
+    "timestamp": 1492304651
   }
 }

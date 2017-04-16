@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 4'
-gem 'friendly_id', '~> 5'
+gem 'rails', '>= 4', '< 6'
+gem 'friendly_id', '>= 5'
 gem 'jeweler', '~> 2'
 
 group :development, :test do
@@ -14,6 +14,7 @@ group :development, :test do
   gem 'faker', '~> 1.4'
   gem 'haml', '~> 4'
   gem 'database_cleaner', '~> 1.4'
+  gem 'rails-controller-testing', '>= 1'
 end
 
 gem 'coveralls', '~> 0.8', require: false
