@@ -15,7 +15,6 @@ RDoc::Task.new(:rdoc) do |rdoc|
 end
 
 require 'juwelier'
-require './lib/friendly_id/method_scopes/version'
 Juwelier::Tasks.new do |gem|
   # gem is a Gem::Specification...
   # see http://guides.rubygems.org/specification-reference/ for more options
@@ -26,7 +25,6 @@ Juwelier::Tasks.new do |gem|
   gem.licenses = ["MIT"]
   gem.description = "FriendlyId Extension to allow method scopes, in addition to column and relationship scopes."
   gem.authors = ["Karen Lundgren"]
-  gem.version = FriendlyId::MethodScopes::VERSION
 end
 Juwelier::RubygemsDotOrgTasks.new
 
