@@ -15,7 +15,7 @@ group :development, :test do
   gem 'haml', '~> 5'
   gem 'database_cleaner', '~> 1.4'
   gem 'rails-controller-testing', '>= 1', '< 2'
-  gem 'coveralls', '>= 0.8', require: false
+  gem 'coveralls', '~> 0.8', require: false
 end
 
 
