@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :book do
     title { Faker::Company.catch_phrase }
     transient do

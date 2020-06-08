@@ -10,7 +10,7 @@ group :development, :test do
   gem 'shoulda-matchers', '>= 3.1.2', '< 4'
   gem 'rolify', '>= 4', '< 6'
   gem 'seedbank', '~> 0.3'
-  gem 'factory_girl_rails', '~> 4.5'
+  gem 'factory_bot_rails', '~> 4.8.2'
   gem 'faker', '~> 1.4'
   gem 'haml', '~> 5'
   gem 'database_cleaner', '~> 1.4'

@@ -10,11 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150622182214) do
+ActiveRecord::Schema.define(version: 2015_06_22_182214) do
 
   create_table "authors", force: :cascade do |t|
-    t.string   "full_name"
-    t.string   "slug"
+    t.string "full_name"
+    t.string "slug"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -26,16 +26,16 @@ ActiveRecord::Schema.define(version: 20150622182214) do
   end
 
   create_table "books", force: :cascade do |t|
-    t.string   "title"
-    t.string   "slug"
+    t.string "title"
+    t.string "slug"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "roles", force: :cascade do |t|
-    t.string   "name"
-    t.string   "resource_type"
-    t.integer  "resource_id"
+    t.string "name"
+    t.string "resource_type"
+    t.integer "resource_id"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.index ["name", "resource_type", "resource_id"], name: "index_roles_on_name_and_resource_type_and_resource_id"

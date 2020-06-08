@@ -1,4 +1,4 @@
 shared_context 'authors' do
-  let(:first_author) { Author.friendly.find('first-author') }
-  let(:second_author) { Author.friendly.find('second-author') }
+  let(:first_author) { FactoryBot.create(:author, full_name: 'First Author') }
+  let(:second_author) { FactoryBot.create(:author, full_name: 'Second Author') }
 end
